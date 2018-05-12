@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="FileEncryptor.OperationsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FileEncryptor"
+             xmlns:interactionRequest="http://prismlibrary.com/"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance local:OperationsViewModel}"
+             d:DesignHeight="450" d:DesignWidth="350">
+    <i:Interaction.Triggers>
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding ShowErrorNotificationRequest, Mode=OneWay}">
+            <interactionRequest:PopupWindowAction IsModal="True" CenterOverAssociatedObject="True"/>
+        </interactionRequest:InteractionRequestTrigger>
+
+        <interactionRequest:InteractionRequestTrigger SourceObject="{Binding FileSaveAsInteractionRequest, Mode=OneWay}">
+            <local:SaveFileAction/>
+        </interactionRequest:InteractionRequestTrigger>
+    </i:Interaction.Triggers>
+    <Grid>
+
+        <DockPanel>
+        <TextBlock Text="Encryptor / Decryptor" 
+                   DockPanel.Dock="Top" 
+                   Background="DarkBlue" 
+                   FontSize="16"
+                   FontWeight="Bold"
+                   Padding="6"
+                   Foreground="White"/>
+        <Border BorderThickness="4" BorderBrush="DarkBlue" CornerRadius="10" 
+                Drop="OnDrop" AllowDrop="True"
+                Margin="20" Background="Gainsboro">
+            <TextBlock Text="Drag and drop files for encrypting and decrypting" FontSize="14" 
+                       HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"></TextBlock>
+        </Border>
+        </DockPanel>
+    </Grid>
+</UserControl>
+
