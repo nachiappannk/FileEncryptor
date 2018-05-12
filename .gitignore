@@ -2,3 +2,5 @@
 FileEncryptor/bin/
 FileEncryptor/obj/
 packages/
+FileEncryptorPackager/bin/
+FileEncryptorPackager/obj/
