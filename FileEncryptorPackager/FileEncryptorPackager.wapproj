@@ -38,8 +38,9 @@
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>FileEncryptorPackager_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>FileEncryptorPackager_StoreKey.pfx</PackageCertificateKeyFile>
     <EntryPointProjectUniqueName>..\FileEncryptor\FileEncryptor.csproj</EntryPointProjectUniqueName>
+    <PackageCertificateThumbprint>F6C6857DC0DA355FEF56B21E8C539D2E91B4C47D</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -54,6 +55,8 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <None Include="FileEncryptorPackager_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileEncryptor\FileEncryptor.csproj" />
