@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FileEncryptor"
         mc:Ignorable="d"
+        Icon="if_Privacy_2921800_512x512.png"
         d:DataContext="{d:DesignInstance local:MainViewModel}"
         Title="MyEncryptor" Height="450" Width="350" MinWidth="350" >
     <Grid>

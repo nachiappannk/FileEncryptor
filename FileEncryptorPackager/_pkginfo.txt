@@ -1,1 +1,1 @@
-C:\Repo\FileEncryptor\FileEncryptorPackager\bin\AnyCPU\Release\Upload\FileEncryptorPackager_1.1.2.0\FileEncryptorPackager_1.1.2.0_AnyCPU.appxbundle
+C:\Repo\FileEncryptor\FileEncryptorPackager\bin\AnyCPU\Release\Upload\FileEncryptorPackager_1.1.3.0\FileEncryptorPackager_1.1.3.0_AnyCPU.appxbundle

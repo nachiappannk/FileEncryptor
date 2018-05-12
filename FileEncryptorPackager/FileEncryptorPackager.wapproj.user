@@ -4,7 +4,7 @@
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
-    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
     <Source>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</Source>
     <SmallTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</SmallTileSource>
     <MediumTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</MediumTileSource>
