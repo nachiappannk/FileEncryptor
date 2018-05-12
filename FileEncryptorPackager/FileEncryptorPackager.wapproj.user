@@ -2,5 +2,20 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+    <Source>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</Source>
+    <SmallTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</MediumTileSource>
+    <WideTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</WideTileSource>
+    <LargeTileSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</LargeTileSource>
+    <AppIconSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800_512x512.png</PackageLogoSource>
+    <BadgeLogoSource>C:\Users\Suchendra\Downloads\if_Privacy_2921800.png</BadgeLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
